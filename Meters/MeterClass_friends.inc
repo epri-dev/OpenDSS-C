@@ -1,0 +1,6 @@
+
+friend class TMeterClass;
+
+
+
+

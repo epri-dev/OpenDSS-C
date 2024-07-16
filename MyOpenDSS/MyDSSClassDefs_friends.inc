@@ -1,0 +1,5 @@
+
+friend void CreateMyDSSClasses();
+
+
+
