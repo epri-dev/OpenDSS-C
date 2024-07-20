@@ -454,3 +454,4 @@ endif()
 
 # TODO: Add tests and install targets if needed.
 install (TARGETS OpenDSSC klusolve_all)
+include(CPack)
