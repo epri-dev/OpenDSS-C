@@ -410,6 +410,7 @@ target_compile_definitions(OpenDSSC PRIVATE
 	_D2C_SYSFILE_H_LONG_IS_INT64
 	_COMPLEX_DEFINED
 )
+include(GNUInstallDirs)
 endif()
 
 target_include_directories(OpenDSSC PRIVATE
@@ -452,4 +453,4 @@ target_link_libraries(OpenDSSC
 endif()
 
 # TODO: Add tests and install targets if needed.
-install (TARGETS OpenDSSC DESTINATION "openDSSX/bin")
+install (TARGETS OpenDSSC klusolve_all)
